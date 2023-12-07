@@ -1,0 +1,72 @@
+.headMain{
+    color: #909090;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.weatherCard{
+    height: 85%;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    box-shadow: 0px 0px 47px 13px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-top: 1.5%;
+}
+.celMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 0.5%;
+}
+.humWind{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 0.5%;
+}
+#wheatherData{
+    height: 40px;
+    width: 70%;
+    border: none;
+    box-shadow: 0px 0px 47px 13px rgba(0,0,0,0.1);
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 150%;
+}
+.searchBtn{
+    border-radius: 3px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 190, 67);
+    box-shadow: 0px 0px 47px 13px rgba(0,0,0,0.1);
+    height: 40px;
+    width: 25%;
+    font-size: 160%;
+    text-align: center;
+}
+#getloc{
+    border: none;
+    background-color:red;
+    font-size: 150%;
+    margin-top: 2%;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media(max-width:500px){
+    .weatherCard{
+        padding-top: 25%;
+    }
+    #wheatherData{
+        margin-bottom: 10%;
+    }   
+}
