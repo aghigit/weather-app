@@ -10,8 +10,6 @@
     text-align: center;
 }
 .weatherCard{
-    height: 85%;
-    width: 90%;
     color: rgb(0, 0, 0);
     background-color:#ffffff;
     box-shadow: 0px 0px 47px 13px rgba(0,0,0,0.1);
